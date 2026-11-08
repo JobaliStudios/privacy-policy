@@ -1,62 +1,133 @@
 <!doctype html>
-<html lang="es">
+<html lang="es-PE">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Política de privacidad de Código Procesal Civil PE.">
-  <title>Política de Privacidad - Código Procesal Civil PE</title>
+  <meta name="color-scheme" content="light dark">
+  <title>Política de privacidad — Código Procesal Civil del Perú</title>
   <style>
-    :root { color-scheme: light dark; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; }
-    body { margin: 0; background: #f6f4f8; color: #26222a; line-height: 1.65; }
-    main { max-width: 860px; margin: 0 auto; padding: 48px 24px 72px; }
-    article { background: #fff; border-radius: 20px; padding: clamp(24px, 5vw, 48px); box-shadow: 0 12px 40px rgba(35, 24, 45, .08); }
-    h1 { margin-top: 0; color: #4b2e62; line-height: 1.2; }
-    h2 { margin-top: 2rem; color: #59396e; }
-    a { color: #65417e; }
-    .updated { color: #625b66; }
-    @media (prefers-color-scheme: dark) {
-      body { background: #18151b; color: #eee8f2; }
-      article { background: #242027; }
-      h1, h2, a { color: #d7b8e8; }
-      .updated { color: #c9c0cd; }
+    :root {
+      color-scheme: light dark;
+      --background: #fbf8f5;
+      --surface: #ffffff;
+      --text: #291d20;
+      --muted: #66585b;
+      --accent: #711f34;
+      --border: #dfd4d6;
+      --notice: #f5ecee;
     }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --background: #181214;
+        --surface: #21191b;
+        --text: #f3e8ea;
+        --muted: #cbbdc0;
+        --accent: #efb2c1;
+        --border: #4a3a3e;
+        --notice: #302126;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--background);
+      color: var(--text);
+      font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+      font-size: 1rem;
+      line-height: 1.65;
+    }
+    main {
+      width: min(100% - 2rem, 52rem);
+      margin: 0 auto;
+      padding: 2.5rem 0 4rem;
+    }
+    article {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 1rem;
+      padding: clamp(1.25rem, 4vw, 3rem);
+      box-shadow: 0 0.4rem 1.5rem rgb(0 0 0 / 0.06);
+    }
+    h1, h2 { line-height: 1.25; }
+    h1 { margin: 0 0 0.5rem; font-size: clamp(1.8rem, 5vw, 2.6rem); }
+    h2 { margin: 2.2rem 0 0.6rem; font-size: 1.3rem; color: var(--accent); }
+    p, ul { margin: 0.65rem 0; }
+    li + li { margin-top: 0.45rem; }
+    a { color: var(--accent); text-underline-offset: 0.18em; }
+    .meta { color: var(--muted); }
+    .notice {
+      margin: 1.5rem 0;
+      padding: 1rem 1.1rem;
+      border-left: 0.3rem solid var(--accent);
+      border-radius: 0.4rem;
+      background: var(--notice);
+    }
+    code { overflow-wrap: anywhere; }
   </style>
 </head>
 <body>
   <main>
     <article>
-      <h1>Política de Privacidad</h1>
-      <p class="updated"><em>Última actualización: 10 de agosto de 2026</em></p>
+      <header>
+        <h1>Política de privacidad</h1>
+        <p><strong>Código Procesal Civil del Perú</strong></p>
+        <p class="meta">Aplicación Android <code>com.jobalistudios.codigoprocesalcivilpe</code> · versión 1.06 publicada en Google Play</p>
+        <p class="meta">Última actualización: 7 de noviembre de 2026</p>
+      </header>
 
-      <p>Esta política explica cómo la aplicación <strong>Código Procesal Civil PE</strong>, publicada por Jobali Studios, trata la información del usuario.</p>
+      <p class="notice">Esta política explica el tratamiento de datos de la versión publicada de la aplicación. El contenido jurídico funciona sin conexión, pero la publicidad necesita conexión y es prestada por Google.</p>
 
-      <h2>1. Datos almacenados localmente</h2>
-      <p>La aplicación no requiere una cuenta. El contenido jurídico principal está incluido en la aplicación y puede consultarse sin conexión. Para ofrecer sus funciones, la app guarda únicamente en el dispositivo búsquedas recientes, favoritos, historial de lectura, preferencias, resaltados y notas. Las notas se protegen mediante Android Keystore.</p>
-      <p>Jobali Studios no recibe estos datos en un servidor. Pueden eliminarse desde <strong>Configuración &gt; Centro de privacidad</strong> o al desinstalar la aplicación.</p>
+      <h2>1. Responsable y contacto</h2>
+      <p>El responsable de la aplicación es <strong>Jobali Studios</strong>. Para consultas de privacidad, solicitudes o reclamos, escribe a <a href="mailto:studiosjobali@gmail.com">studiosjobali@gmail.com</a>.</p>
 
-      <h2>2. Publicidad y consentimiento</h2>
-      <p>La app utiliza Google AdMob y el SDK User Messaging Platform (UMP). Cuando la normativa aplicable exige consentimiento, la app solicita la decisión del usuario antes de pedir anuncios. Las opciones de privacidad pueden reabrirse desde el Centro de privacidad.</p>
-      <p>Según la ubicación y la elección del usuario, AdMob puede mostrar anuncios personalizados, no personalizados o limitados. Si no hay conexión, el consentimiento falla o un anuncio no carga, las funciones jurídicas de la aplicación continúan disponibles.</p>
+      <h2>2. Cuenta, servidores y alcance</h2>
+      <p>No necesitas crear una cuenta. Jobali Studios no opera un servidor propio para recibir búsquedas, favoritos, historial, notas ni otros datos locales de la aplicación. La app sí se conecta con los servicios publicitarios de Google descritos en esta política.</p>
 
-      <h2>3. Datos tratados por Google</h2>
-      <p>El SDK de anuncios móviles de Google puede recopilar o compartir dirección IP para estimar la ubicación aproximada, interacciones con la aplicación y los anuncios, información de diagnóstico e identificadores del dispositivo o de la cuenta, como el identificador de publicidad y el App Set ID.</p>
-      <p>Google usa estos datos para publicidad, medición y análisis, prevención de fraude, seguridad y diagnóstico. La información se transmite cifrada. El tratamiento y la conservación que realiza Google se rigen por sus propias políticas:</p>
+      <h2>3. Información guardada localmente</h2>
+      <p>Según las funciones que utilices, la aplicación puede guardar en tu dispositivo:</p>
       <ul>
-        <li><a href="https://policies.google.com/privacy">Política de Privacidad de Google</a></li>
-        <li><a href="https://policies.google.com/technologies/partner-sites">Cómo usa Google los datos de sitios y aplicaciones asociados</a></li>
+        <li>búsquedas recientes;</li>
+        <li>artículos o secciones marcados como favoritos;</li>
+        <li>historial de lectura reciente;</li>
+        <li>preferencias de tema, lectura y tamaño de texto;</li>
+        <li>preguntas incorrectas del quiz que quedan pendientes de repaso;</li>
+        <li>resaltados y notas creadas sobre el contenido jurídico.</li>
+      </ul>
+      <p>Estos datos permiten recordar tus elecciones, continuar la lectura y ofrecer las funciones de estudio. Las notas se cifran en el dispositivo mediante Android Keystore. Los demás datos locales se almacenan con los mecanismos privados de Android disponibles para la aplicación.</p>
+
+      <h2>4. Retención y eliminación</h2>
+      <p>Los datos locales permanecen hasta que los elimines, borres los datos de la aplicación o la desinstales. Las preguntas incorrectas del quiz también se eliminan al resolverlas correctamente.</p>
+      <p>En el <strong>Centro de privacidad</strong> puedes borrar cada categoría disponible por separado —búsquedas, favoritos, notas y resaltados— o usar <strong>“Borrar todos los datos locales”</strong> para eliminar además el historial de lectura y restablecer preferencias funcionales. Las decisiones administradas por Google UMP se controlan por separado mediante la opción de consentimiento publicitario cuando esté disponible para tu región.</p>
+      <p>También puedes eliminar todos los datos de la app desde Ajustes de Android o al desinstalarla. Jobali Studios no puede borrar directamente información que Google trate en sus propios sistemas; para ello se aplican los controles y políticas de Google.</p>
+
+      <h2>5. Copias de seguridad de Android</h2>
+      <p>La aplicación permite las copias de seguridad administradas por Android cuando el dispositivo y tu configuración lo permiten. Las búsquedas recientes están excluidas de esas copias. Los resaltados y notas también están excluidos de las copias de seguridad y de la transferencia entre dispositivos.</p>
+      <p>Otros datos locales, como favoritos, historial, preferencias o estado de repaso del quiz, pueden formar parte de una copia administrada por Android. En Android 12 o posterior, la copia en la nube se desactiva cuando el dispositivo no ofrece capacidades de cifrado compatibles.</p>
+
+      <h2>6. Google Mobile Ads y Google UMP</h2>
+      <p>La aplicación usa <strong>Google Mobile Ads</strong> para mostrar anuncios y <strong>Google UMP</strong> para solicitar o administrar el consentimiento cuando corresponda. La app solo solicita anuncios cuando UMP indica que puede hacerlo.</p>
+      <p>Google puede procesar la dirección IP —que puede permitir estimar una ubicación aproximada—, interacciones con la aplicación y los anuncios, diagnósticos de rendimiento e identificadores del dispositivo o de publicidad. Google puede usar esta información para mostrar y medir publicidad, limitar fraude y abuso y mantener sus servicios.</p>
+      <p>Se mantiene la publicidad personalizada cuando el consentimiento, la región y la configuración de Google lo permiten. Cuando las normas o la elección del usuario exijan otro tratamiento, Google puede servir anuncios no personalizados o limitar el uso de datos conforme a su plataforma de consentimiento.</p>
+      <p>La comunicación con los servicios de Google se realiza mediante tránsito cifrado. Jobali Studios no incorpora el SDK independiente de Google Analytics en esta versión; la medición descrita aquí corresponde al servicio publicitario de Google.</p>
+      <ul>
+        <li><a href="https://policies.google.com/privacy">Política de privacidad de Google</a></li>
+        <li><a href="https://policies.google.com/terms">Términos del servicio de Google</a></li>
+        <li><a href="https://support.google.com/admob/answer/6128543">Uso de datos en Google AdMob</a></li>
       </ul>
 
-      <h2>4. Permisos</h2>
-      <p>La aplicación declara el permiso de identificador de publicidad (<code>AD_ID</code>) para el funcionamiento de AdMob en versiones compatibles de Android. El usuario puede restablecer o eliminar este identificador desde la configuración de privacidad de su dispositivo.</p>
+      <h2>7. Público y menores de edad</h2>
+      <p>La aplicación ofrece material jurídico para el público general y no está dirigida específicamente a niños. No solicita nombre, edad, cuenta ni información de contacto dentro de la app. Los responsables de menores deben supervisar el uso del dispositivo y sus opciones publicitarias.</p>
 
-      <h2>5. Control y eliminación</h2>
-      <p>El Centro de privacidad permite borrar por separado las búsquedas, los favoritos, las notas y los resaltados, o eliminar todos los datos locales. El consentimiento publicitario se administra por separado mediante las opciones de privacidad de UMP.</p>
+      <h2>8. Contenido jurídico e independencia</h2>
+      <p>La aplicación es independiente y no representa ni está afiliada al Gobierno, al Poder Judicial ni a otra entidad del Estado peruano. El contenido se contrasta con fuentes jurídicas oficiales, como el Diario Oficial El Peruano, el Sistema Peruano de Información Jurídica (SPIJ), el Congreso de la República y el Poder Judicial.</p>
+      <p>La información es orientativa y no constituye asesoría legal. Para decisiones o casos concretos consulta las publicaciones oficiales y, cuando corresponda, a un profesional del derecho.</p>
 
-      <h2>6. Cambios de esta política</h2>
-      <p>Podemos actualizar esta política cuando cambien las funciones de la aplicación, los servicios utilizados o las obligaciones aplicables. La fecha de la versión vigente aparece al inicio de esta página.</p>
+      <h2>9. Actualizaciones de la aplicación y de esta política</h2>
+      <p>El contenido jurídico está disponible sin conexión y es actualizado periódicamente mediante nuevas versiones de la aplicación. La fecha concreta de verificación se muestra dentro de la app.</p>
+      <p>Esta política puede cambiar si se modifican las funciones, los proveedores o las obligaciones aplicables. La versión vigente conservará una fecha visible de actualización en esta página. Si un cambio afecta de manera relevante el tratamiento de datos, se comunicará mediante la ficha de Google Play o una nueva versión de la aplicación.</p>
 
-      <h2>7. Contacto</h2>
-      <p>Para consultas de privacidad o soporte: <a href="mailto:studiosjobali@gmail.com">studiosjobali@gmail.com</a>.</p>
+      <h2>10. Derechos y solicitudes</h2>
+      <p>Puedes ejercer los controles locales descritos anteriormente y solicitar información sobre esta política mediante <a href="mailto:studiosjobali@gmail.com">studiosjobali@gmail.com</a>. Incluye una descripción clara de tu solicitud, pero no envíes información confidencial sobre procesos judiciales. Las solicitudes relacionadas con datos tratados directamente por Google deben gestionarse también mediante los controles y canales de Google.</p>
     </article>
   </main>
 </body>
